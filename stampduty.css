@@ -1,0 +1,87 @@
+.cw-sdlt { 
+	font-family: Helvetica, Arial, sans-serif;
+	padding: 20px 20px 10px 20px;
+	font-size: 14px;
+	border: 1px solid #CCC;
+}
+	.cw-sdlt * { font-size: 1em; font-family: Helvetica, Arial, sans-serif; }
+	.cw-sdlt label { display: block; margin: 0 0 10px 0; } 
+	.cw-sdlt-field { position: relative; margin: 0 0 10px 0; }
+	.cw-sdlt input[type="number"] {
+		padding: 15px;
+		margin: 0;
+		width: 100%;
+		font-size: 1.2em;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		border: 1px solid #CCC;
+	}
+	.cw-sdlt input[type="number"]:focus {
+		border: 1px solid #999;
+		outline: none;
+	}
+	.cw-sdlt-field-purchase-price:before {
+		position: absolute;
+		top: 50%;
+		left: 5px;
+		width: 20px;
+		font-size: 1.2em;
+		line-height: 30px;
+		margin-top: -15px;
+		text-align: right;
+		content: "\00a3";
+	}
+		.cw-sdlt-field-purchase-price input[type="number"] { padding-left: 25px; }
+	.cw-sdlt select {
+		padding: 12px;
+		margin: 0;
+		width: 100%;
+		font-size: 1em;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		border: 1px solid #CCC;
+	}
+	.cw-sdlt input[type="submit"] { margin: 0 0 10px 0; }
+	.cw-sdlt table { width: 100%; border-top: 1px solid #EEE; margin: 0 0 20px 0; }
+	.cw-sdlt table td,
+	.cw-sdlt table th {
+		padding: 10px;
+		font-weight: normal;
+		text-align: left;
+		border-bottom: 1px solid #EEE;
+	}
+	.cw-sdlt table thead,
+	.cw-sdlt table tfoot { background: #f9f9f9; }
+	.cw-sdlt table tfoot td { font-weight: bold; }
+	.cw-sdlt input[type="submit"] {
+		background: #2b8cc4;
+		color: #FFF;
+		display: inline-block;
+		padding: 10px;
+		border: none;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
+		cursor: pointer;
+	}
+	.cw-sdlt input[type="submit"]:hover { background: #333; }
+	#cw-sdlt-results { display: none; }
+	#cw-sdlt-results-total { 
+		font-size: 1.5em;
+		margin: 10px 0 20px 0;
+		padding: 20px;
+		text-align: center;
+		background: #f9f9f9; 
+		border: 1px solid #EEE;
+	}
+		#cw-sdlt-results-total span { font-weight: bold; }
+	.cw-sdlt-heading { font-size: 1.5em; margin: 0 0 10px 0; }
+	.cw-sdlt-disclaimer {
+		display: block;
+		font-size: 0.8em;
+		line-height: 1.3em;
+		color: #999;
+		margin: 0 0 10px 0;
+	}
